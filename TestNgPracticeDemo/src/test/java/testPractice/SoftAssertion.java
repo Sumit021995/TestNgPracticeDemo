@@ -11,6 +11,6 @@ public class SoftAssertion {
 		String actualValue="Hello";
 		SoftAssert s=new SoftAssert();
 		s.assertEquals(actualValue, expectedValue);
-		System.out.println("");
+		System.out.println("Before asserAll()");
 	}
 }
