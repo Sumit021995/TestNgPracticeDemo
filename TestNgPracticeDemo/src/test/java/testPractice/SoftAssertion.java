@@ -23,6 +23,7 @@ public class SoftAssertion {
 		SoftAssert s=new SoftAssert();
 		s.assertEquals(actualValue.contains(expectedValue), true);
 		System.out.println("Before asserAll() form 2nd Method");
+		s.assertFalse(actualValue.contains(expectedValue));
 		System.out.println("Validation ended");
 		s.assertAll();
 	}
