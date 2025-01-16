@@ -18,7 +18,8 @@ public class AssertionPractice {
 	{
 		String actualName="don";
 		String expectedName="London";
-		Assert.assertTrue(actualName.contains(expectedName));
+//		Assert.assertTrue(actualName.contains(expectedName));
+		Assert.assertTrue(expectedName.contains(actualName));
 //		Assert.assertEquals(actualName.equals(expectedName),true);
 		System.out.println("Validation Ended");;
 	}
