@@ -15,4 +15,15 @@ public class SoftAssertion {
 		System.out.println("Validation ended");
 		s.assertAll();
 	}
+	@Test
+	public void containsLevelSoftAssertion()
+	{
+		String expectedValue="Patna";
+		String actualValue="Patna city";
+		SoftAssert s=new SoftAssert();
+		s.assertEquals(actualValue.contains(expectedValue), true);
+		System.out.println("Before asserAll() form 2nd Method");
+		System.out.println("Validation ended");
+		s.assertAll();
+	}
 }
