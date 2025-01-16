@@ -14,7 +14,7 @@ public class TestNgPriorityAndDependsOnMethods {
 	{
 		System.out.println("User Updated");
 	}
-	@Test(priority=3,dependsOnMethods={"createUser"})
+	@Test(priority=3,dependsOnMethods={"createUser"},enabled=false)
 	public void deleteUser()
 	{
 		System.out.println("User Deleted");
