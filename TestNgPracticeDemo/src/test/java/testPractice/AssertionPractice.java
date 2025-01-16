@@ -10,6 +10,7 @@ public class AssertionPractice {
 		String actualName="Sumit Saurav";
 		String expectedName="Sumit";
 		Assert.assertEquals(actualName,expectedName);
+		Assert.assertEquals(actualName.equals(expectedName),true);
 		System.out.println("Validation Ended");;
 	}
 }
