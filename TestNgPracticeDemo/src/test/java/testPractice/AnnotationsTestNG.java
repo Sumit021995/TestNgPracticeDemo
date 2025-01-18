@@ -12,6 +12,6 @@ public class AnnotationsTestNG {
 	@Test(priority=2,dependsOnMethods= {"addUser"})
 	public void modifyUser()
 	{
-		System.out.println("User Added");
+		System.out.println("User Modified");
 	}
 }
