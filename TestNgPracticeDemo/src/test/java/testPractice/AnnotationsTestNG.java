@@ -14,4 +14,9 @@ public class AnnotationsTestNG {
 	{
 		System.out.println("User Modified");
 	}
+	@Test(priority=3,dependsOnMethods= {"addUser"})
+	public void deleteUser()
+	{
+		System.out.println("User deleted");
+	}
 }
