@@ -36,7 +36,7 @@ public class Annotation2 {
         System.out.println("Test1 is executed");
     }
 
-    @Test
+    @Test(invocationCount = 2)
     public void test2() {
         System.out.println("Test2 is executed");
     }
